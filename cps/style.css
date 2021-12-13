@@ -1,0 +1,67 @@
+/* General */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+    user-select: none;
+    
+    font-family: monospace;
+}
+
+/* Stuff */
+
+#title {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+
+    font-size: 50px;
+}
+
+#desc {
+    position: absolute;
+    top: 100px;
+    left: 64px;
+
+    font-size: 16px;
+}
+
+#info {
+    position: absolute;
+    top: 155px;
+    left: 520px;
+
+    font-size: 25px;
+}
+
+#clicker {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+    height: 350px;
+    width: 750px;
+
+    cursor: pointer;
+    outline: none;
+
+    font-size: 20px;
+
+    border-radius: 5px;
+    border: 1px solid #555555;
+    background-color: #EEEEEE;
+    transition-duration: 300ms;
+}
+
+#clicker:hover {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+
+#cps {
+    position: absolute;
+    top: 420px;
+    left: 520px;
+
+    font-size: 50px;
+}
